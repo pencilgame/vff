@@ -1,0 +1,25 @@
+
+
+
+/* Vertical menu that slides from the left or right */
+
+.cbp-spmenu-left {
+	left: -145px;
+}
+
+
+.cbp-spmenu-left.cbp-spmenu-open {
+	left: 0px;
+}
+
+
+
+/* Transitions */
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
